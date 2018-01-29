@@ -1,1 +1,1342 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>KUNAL GARG</title>
+	<!-- custom-theme -->
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"><!--A viewport meta tag should make the web site work on all devices and screen resolutions:-->
+	<link href="css/aos.css" rel="stylesheet" type="text/css" media="all" /><!-- animation effects-css-->
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--w3 styles-->
+
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap css-->
+	<!--link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" /><!-- bootstrap css-->
+	<link href="css/owl.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/blueimp-gallery.min.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/modal.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/fade-animation.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/carousel.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/banner.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/navbar.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/about.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/skills.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/portfolio.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/achievements.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/contact-me.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link href="css/stylesswitcher.css" rel="stylesheet" type="text/css" media="all"><!--horizontal carousel CSS-->
+	<link rel="stylesheet" class="alt" href="css/theme/jgger.css"/><!--default theme css-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+
+	<!--style>
+        .spinner {
+            width: 40px;
+            height: 40px;
+            background-color: #ffffff;
+            position: absolute;
+            top: 48%;
+            left: 48%;
+
+            -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+            animation: sk-rotateplane 1.2s infinite ease-in-out;
+        }
+
+        @-webkit-keyframes sk-rotateplane {
+            0% { -webkit-transform: perspective(120px) }
+            50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+            100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+        }
+
+        @keyframes sk-rotateplane {
+            0% {
+                transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+                -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+            } 50% {
+                  transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+                  -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+              } 100% {
+                    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+                    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+                }
+        }
+
+        .spinner-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #111;
+            z-index: 999999 ;
+        }
+    </style--> <!--style for preloader-two-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div id="pageloader">
+	<div class="loader-item">
+		<img alt="loader" src="images/preloader.gif">
+		<div>loading...</div>
+	</div>
+</div>
+<!--preloader two-->
+<!--div class="spinner-wrapper">
+	<div class="spinner"></div>
+</div-->
+<header>
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="logo">
+					<a href="#"><h5 style="font-size: 23px;color: azure;text-decoration-style: solid">Kunal Garg</h5></a>
+				</div>
+			</div>
+			<div class="navbar-collapse collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#page-top">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#skill">Skill</a></li>
+					<li><a href="#journey">Journey</a></li>
+					<li><a href="#thriumps">Thriumps</a></li>
+					<li><a href="#portfolio">Photos</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+<div class="slideshow-container">
+	<div id="myCarousel" class="carousel bs-slider fade  control-round indicators-line" data-pause="hover" data-ride="carousel" data-interval="4000" style="height: 100%">
+		<!-- Indicators -->
+		<ol class="carousel-indicators" style="margin-bottom: 0px">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+
+			<div class="item active">
+				<img src="images/t1.jpg" alt="Los Angeles" style="width:100%;height: 100%;">
+				<div class="header-text hidden-xs">
+
+					<div class="banner_info" >
+						<div style="margin-left: 40px">
+							<div class="author-img" style="text-align: center">
+								<img src="images/try2.jpg" alt="">
+							</div>
+							<h1 class="author-name" data-aos="fade-right" >I'm <span>Kunal</span>,</h1>
+							<div class="sub-title">programmer <span>|</span> Web Geek</div>
+							<div class="social-icons">
+								<ul id="bottom">
+									<li><a title="Facebook" data-toggle="tooltip" class="img-circle" href="http://facebook.com/kunalgarg2100" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									<li><a title="Quora" data-toggle="tooltip" class="img-circle" href="https://www.quora.com/profile/Kunal-Garg-77" target="_blank"><i class="fa fa-quora"></i></a></li>
+									<li><a title="Instagram" data-toggle="tooltip" class="img-circle" href="https://www.instagram.com/kunalgarg2100/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+									<li><a title="Github" data-toggle="tooltip" class="img-circle" href="https://github.com/Kunalgarg2100" target="_blank"><i class="fa fa-github"></i></a></li>
+									<li><a title="Linkedin" data-toggle="tooltip" class="img-circle" href="https://linkedin.com/in/kunal-garg-72aa08137" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="banner_info_grid" style="text-align: center">
+							<ul data-aos="slide-up" style="margin-top: 40px">
+								<li><a href="#" class="know-more" data-toggle="modal" data-target="#myModal" id="myBtn">Know More</a></li>
+								<li><a href="#" class="scroll download-CV"><i class="fa fa-download" aria-hidden="true"></i> Download CV</a></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="item">
+				<img src="images/19443_en_1.jpg" alt="Los Angeles" style="width:100%;height: 100%;">
+				<div class="header-text hidden-xs" style="top: 18%">
+
+					<div class="banner_info" >
+						<div style="margin-left: 40px">
+							<div class="author-img" style="text-align: center">
+								<img src="images/try2.jpg" alt="">
+							</div>
+							<h1 class="author-name" data-aos="fade-right" >I'm <span>Kunal</span>,</h1>
+							<div class="sub-title">programmer <span>|</span> Web Geek</div>
+							<div class="social-icons">
+								<ul id="bottom">
+									<li><a title="Facebook" data-toggle="tooltip" class="img-circle" href="http://facebook.com/kunalgarg2100" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									<li><a title="Quora" data-toggle="tooltip" class="img-circle" href="https://www.quora.com/profile/Kunal-Garg-77" target="_blank"><i class="fa fa-quora"></i></a></li>
+									<li><a title="Instagram" data-toggle="tooltip" class="img-circle" href="https://www.instagram.com/kunalgarg2100/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+									<li><a title="Github" data-toggle="tooltip" class="img-circle" href="https://github.com/Kunalgarg2100" target="_blank"><i class="fa fa-github"></i></a></li>
+									<li><a title="Linkedin" data-toggle="tooltip" class="img-circle" href="https://linkedin.com/in/kunal-garg-72aa08137" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="banner_info_grid" style="text-align: center">
+							<ul data-aos="slide-up" style="margin-top: 40px">
+								<li><a href="#" class="know-more" data-toggle="modal" data-target="#myModal" id="myBtn">Know More</a></li>
+								<li><a href="#" class="scroll download-CV"><i class="fa fa-download" aria-hidden="true"></i> Download CV</a></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="item">
+				<img src="images/rood.jpg" alt="Los Angeles" style="width:100%;height: 100%;">
+				<div class="header-text hidden-xs" style="top: 16%">
+
+					<div class="banner_info" >
+						<div style="margin-left: 40px">
+							<div class="author-img" style="text-align: center">
+								<img src="images/try2.jpg" alt="">
+							</div>
+							<h1 class="author-name" data-aos="fade-right" >I'm <span>Kunal</span>,</h1>
+							<div class="sub-title">programmer <span>|</span> Web Geek</div>
+							<div class="social-icons">
+								<ul id="bottom">
+									<li><a title="Facebook" data-toggle="tooltip" class="img-circle" href="http://facebook.com/kunalgarg2100" target="_blank"><i class="fa fa-facebook"></i></a></li>
+									<li><a title="Quora" data-toggle="tooltip" class="img-circle" href="https://www.quora.com/profile/Kunal-Garg-77" target="_blank"><i class="fa fa-quora"></i></a></li>
+									<li><a title="Instagram" data-toggle="tooltip" class="img-circle" href="https://www.instagram.com/kunalgarg2100/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+									<li><a title="Github" data-toggle="tooltip" class="img-circle" href="https://github.com/Kunalgarg2100" target="_blank"><i class="fa fa-github"></i></a></li>
+									<li><a title="Linkedin" data-toggle="tooltip" class="img-circle" href="https://linkedin.com/in/kunal-garg-72aa08137" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="banner_info_grid" style="text-align: center">
+							<ul data-aos="slide-up" style="margin-top: 40px">
+								<li><a href="#" class="know-more" data-toggle="modal" data-target="#myModal" id="myBtn">Know More</a></li>
+								<li><a href="#" class="scroll download-CV"><i class="fa fa-download" aria-hidden="true"></i> Download CV</a></li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+			<!--div class="item">
+				<img src="images/back1.jpg" alt="Chicago" style="width:100%;height: 100%;">
+				<div class="header-text hidden-xs">
+					<div class="banner_info" style="margin: 0 auto;margin-top: 50px">
+						<div class="banner_info_grid" style="margin-left: 40px">
+							<h2 data-aos="fade-right">Hello! I'm </h2>
+							<h2 data-aos="fade-right">Kunal Garg.</h2>
+							<h5>Student at IIIT Hyderabad<br>
+								pursuing				B.Tech in Computer Science</h5>.
+						</div>
+						<div class="banner_info_grid">
+							<ul data-aos="slide-up">
+								<li><button type="button" class="know-more" data-toggle="modal" data-target="#myModal" style="height:40px;width:140px;font-size:16px">Know more</button></li>
+								<li><button type="button"  class="scroll download-CV" style="height:40px;width:140px;font-size:16px"><i class="fa fa-download" aria-hidden="true" ></i> Download CV</button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="carousel-caption">
+					<h3>Chicago</h3>
+					<p>Thank you, Chicago!</p>
+				</div>
+			</div-->
+
+			<!-- Left and right controls -->
+
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+
+
+	</div>
+</div>
+<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document" >
+		<!--Modal content-->
+		<div class="modal-content">
+			<div class="modal-header" style="background-color: rgba(19, 154, 104, 0.18);">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title">About Me</h4>
+			</div>
+			<div class="modal-body">
+				<div class="modalpad">
+					<div class="modalpop col-xs-5">
+						<img src="images/Kun.jpg" style="height: 210px" class="img-responsive" alt=""/>
+					</div>
+					<div class="about-modal wthree">
+						<h3>Hi, I'm Kunal Garg</h3>
+						<h4>Programmer and Developer</h4>
+						<p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>CS Undergraduate Student @IIIT-H</p>
+						<p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Patiala, Punjab, INDIA</p>
+						<p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>kunalgarg2100@gmail.com</p>
+						<p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>+91-9501011462</p>
+						<p><i class="fa fa-globe fa-fw w3-margin-right w3-large w3-text-teal"></i>web.iiit.ac/~kunal.garg</p>
+					</div>
+					<hr>
+					<div class="wthree modal-skills">
+						<h3><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></h3>
+						<div class="skill">
+							<div class="skillbar clearfix " data-percent="80%">
+								<div class="skillbar-title" style="background: #146eb4;"><span>C</span></div>
+								<div class="skillbar-bar" style="background: rgb(20, 110, 180) none repeat scroll 0% 0%; width: 80%;"></div>
+								<div class="skill-bar-percent">80%</div>
+							</div> <!-- End Skill Bar -->
+
+							<div class="skillbar clearfix " data-percent="40%">
+								<div class="skillbar-title" style="background: #11b563;"><span>C++</span></div>
+								<div class="skillbar-bar" style="background: rgb(17, 181, 99) none repeat scroll 0% 0%; width: 40%;"></div>
+								<div class="skill-bar-percent">40%</div>
+							</div>
+							<div class="skillbar clearfix " data-percent="30%">
+								<div class="skillbar-title" style="background: #ff4f81;"><span>Python</span></div>
+								<div class="skillbar-bar" style="background: rgb(255, 79, 129) none repeat scroll 0% 0%; width: 30%;"></div>
+								<div class="skill-bar-percent">30%</div>
+							</div>
+							<div class="skillbar clearfix " data-percent="50%">
+								<div class="skillbar-title" style="background: #ff9900;"><span>Shell</span></div>
+								<div class="skillbar-bar" style="background: rgb(255, 153, 0) none repeat scroll 0% 0%; width: 50%;"></div>
+								<div class="skill-bar-percent">50%</div>
+							</div>
+
+							<div class="skillbar clearfix " data-percent="70%">
+								<div class="skillbar-title" style="background: #8e43e7;"><span>HTML5</span></div>
+								<div class="skillbar-bar" style="background: rgb(142, 67, 231) none repeat scroll 0% 0%; width: 70%;"></div>
+								<div class="skill-bar-percent">70%</div>
+							</div>
+							<div class="skillbar clearfix " data-percent="60%">
+								<div class="skillbar-title" style="background: #146eb4;"><span>CSS</span></div>
+								<div class="skillbar-bar" style="background: rgb(20, 110, 180) none repeat scroll 0% 0%; width: 60%;"></div>
+								<div class="skill-bar-percent">60%</div>
+							</div>
+							<div class="skillbar clearfix " data-percent="50%">
+								<div class="skillbar-title" style="background: #11b563;"><span>JavaScript</span></div>
+								<div class="skillbar-bar" style="background: rgb(17, 181, 99) none repeat scroll 0% 0%; width: 50%;"></div>
+								<div class="skill-bar-percent">50%</div>
+							</div>
+							<div class="skillbar clearfix " data-percent="40%">
+								<div class="skillbar-title" style="background: #ff4f81;"><span>Jquery</span></div>
+								<div class="skillbar-bar" style="background: rgb(255, 79, 129) none repeat scroll 0% 0%; width: 40%;"></div>
+								<div class="skill-bar-percent">40%</div>
+							</div> <!-- End Skill Bar --><!-- End Skill Bar -->
+							<div class="clearfix"></div>
+						</div>
+						<hr>
+						<h3><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Thriumps</b></h3>
+						<div class="col-xs-6">
+							<img src="images/achievement.jpg" style="height: 210px" class="img-responsive" alt=""/>
+						</div>
+						<ul class="list-group col-xs-6 achievements">
+							<li class="list-group-item w3-theme-d4" role="button" id="dp1">2016</li>
+							<li class="list-group-item w3-theme-l3 c1" style="display:none">JEE MAINS :- 304 marks</li>
+							<li class="list-group-item w3-theme-l3 c1" style="display:none">JEE Advance :- AIR-1599</li>
+							<li class="list-group-item w3-theme-l3 c1" style="display:none">KVPY Scholar</li>
+							<li class="list-group-item w3-theme-d4" role="button" id="dp2">2015</li>
+							<li class="list-group-item w3-theme-l3 c2" style="display:none">RMO Scholar</li>
+							<li class="list-group-item w3-theme-d4" role="button" id="dp3">2014</li>
+							<li class="list-group-item w3-theme-l3 c3" style="display:none">NSEJS Scholar</li>
+							<li class="list-group-item w3-theme-l3 c3" style="display:none">NAO AIR-1</li>
+							<li class="list-group-item w3-theme-d4" role="button" id="dp4">2012</li>
+							<li class="list-group-item w3-theme-l3 c4" style="display:none">NTSE Scholar</li>
+						</ul>
+						<div class="clearfix"></div>
+						<hr>
+						<div>
+							<h3><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Projects</b></h3>
+
+							<img class="w3-animate-zoom" src="images/bookmyshow.png" style=" margin-left: 30px;height: 190px"  alt="bookymyshow"/>
+						</div>
+						<h4 style="text-align:  center">Book My Show Web App</h4>
+						<hr>
+						<h3><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Programming Handles</b></h3>
+						<h4 style="margin-left: 20px">
+							&nbsp;&nbsp;<a href="http://codeforces.com/profile/kgarg" target="_blank"><img src="images/codeforces.png" style="height: 80px" alt=""/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="https://www.hackerrank.com/kunalgarg2100" target="_blank"><img src="images/hackerrank.jpg" style="height: 75px" alt="hackerrank"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="https://www.hackerearth.com/@kunal255" target="_blank"><img src="images/hackerearth.png" style="height: 70px" alt="hackerearth"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="https://www.spoj.com/users/kgarg/" target="_blank"><img src="images/spoj.jpg" style="height: 75px" alt="spoj"/></a>
+						</h4>
+						<h5>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><a href="http://codeforces.com/profile/kgarg" target="_blank">CodeForces</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="https://www.hackerrank.com/kunalgarg2100" target="_blank">HackerRank</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="https://www.hackerearth.com/@kunal255" target="_blank">HackerEarth</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="https://www.spoj.com/users/kgarg/" target="_blank">SpoJ</a></b>
+						</h5>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<ul class="top-links" style="width: 100%;background-color: rgba(204, 202, 202, 0.29);margin-bottom: 0px;padding-top: 2px;padding-bottom: 4px;margin-left: 0px;text-align: center;">
+				<h5> Find me on social media </h5>
+				<li data-aos="flip-right" class="aos-init aos-animate"><a href="http://facebook.com/kunalgarg2100" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li data-aos="flip-right" class="aos-init aos-animate"><a href="https://www.quora.com/profile/Kunal-Garg-77" target="_blank"><i class="fa fa-quora" aria-hidden="true"></i></a></li>
+				<li data-aos="flip-right" class="aos-init aos-animate"><a href="https://github.com/Kunalgarg2100" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+				<li data-aos="flip-right" class="aos-init aos-animate"><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				<li data-aos="flip-right" class="aos-init aos-animate"><a href="https://linkedin.com/in/kunal-garg-72aa08137" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+				<li data-aos="flip-right" class="aos-init aos-animate"><a href="https://www.instagram.com/kunalgarg2100/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+
+			<div class="clearfix"> </div>
+
+		</div>
+
+	</div>
+</div>
+<div class="container" >
+	<div class="main-head" style="padding-top: 50px">
+		<h1 data-aos="zoom-in" id="about">About me</h1>
+	</div>
+
+	<div class="row">
+		<div class="col-md-7">
+			<div class="subb-head">my story</div>
+			<p id="story">I am <b>Kunal Garg</b>, student at IIIT Hyderabad pursuing
+				B.Tech in Computer Science Engineering(CSE) from Patiala, Punjab(currently in 2nd year).
+				I have learnt C and C++(only STL) as programming languages for competitive programming
+				and the basis of Shell, HTML, CSS, Bootstrap, Javascript, Python, Flask ,NodeJS for web development.
+				I made a project of Book My Show web app in 2nd semester using the above mentioned languages.
+				I am very much interested in learning about Artificial Intelligence, Open Source,  Web Development ,Competitive Programming.
+				In my school days,I cracked KVPY in 12th, RMO in 11th ,NSEJS in 10th and NTSE in 8th.
+				My JEE-MAINS marks were 304 and JEE-ADVANCED rank was 1599.
+			</p>
+		</div>
+		<div class="col-md-5">
+			<div class="subb-head">personal info</div>
+			<div class="author-desk">
+				<div class="row">
+					<div class="col-md-8" style="padding: 0; height: 190px">
+						<div class="author-info" style="height: 190px">
+							<ul>
+								<li>Name : Kunal Garg</li>
+								<li>Age : 18 Years Old</li>
+								<li><i class="fa fa-phone" style="font-size: large"></i> : +91-xxxxx-xxxxx</li>
+								<li><i class="fa fa-envelope" style="font-size: large"></i> : kunal.garg@students.iiit.ac.in</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4" style="padding: 0;">
+
+						<img src="images/Kun.jpg" style="height: 190px;" class="img-responsive" alt=""/>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-md-12">
+			<div class="divider-spacer">&nbsp;</div>
+			<div class="subb-head">My Hobbies</div>
+			<div id="owl-demo" class="owl-carousel owl-theme">
+
+				<div class="item" style="width: 262.5px">
+					<div class="hobbies-wrap">
+						<i class="fa fa-music"></i>
+						Music
+					</div>
+				</div>
+				<div class="item">
+					<div class="hobbies-wrap">
+						<i class="fa fa-soccer-ball-o"></i>
+						Sports
+					</div>
+				</div>
+				<div class="item">
+					<div class="hobbies-wrap">
+						<i class="fa fa-code"></i>
+						Coding
+					</div>
+				</div>
+				<div class="item" style="width: 262.5px">
+					<div class="hobbies-wrap">
+						<i class="fa fa-gamepad"></i>
+						Gaming
+					</div>
+				</div>
+				<div class="item" style="width: 262.5px">
+					<div class="hobbies-wrap">
+						<i class="fa fa-comment-o"></i>
+						Chatting
+					</div>
+				</div>
+				<div class="item" style="width: 262.5px">
+					<div class="hobbies-wrap">
+						<i class="fa fa-plane"></i>
+						Travel
+					</div>
+				</div>
+				<div class="item" style="width: 262.5px">
+					<div class="hobbies-wrap">
+						<i class="fa fa-shopping-cart"></i>
+						Shopping
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="skills container-fluid" >
+	<div class="container">
+		<div class="main-head">
+			<h1 data-aos="zoom-in" id="skill">my Skills</h1>
+		</div>
+		<div class="skill-grids">
+			<div class="col-md-6 skill-grids-left" style="margin-top: 25px">
+				<div data-aos="flip-left" class="col-md-6 skill-img aos-init aos-animate">
+					<div class="box-agile">
+						<img src="images/s1.jpg" alt="" class="img-responsive">
+						<div class="agile-caption">
+							<h3>Html5</h3>
+						</div>
+					</div>
+				</div>
+				<div data-aos="flip-right" class="col-md-6 skill-img aos-init aos-animate">
+					<div class="box-agile">
+						<img src="images/s2.jpg" alt="" class="img-responsive">
+						<div class="agile-caption">
+							<h3>Python</h3>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div data-aos="flip-left" class="col-md-6 skill-img aos-init">
+					<div class="box-agile">
+						<img src="images/s3.jpg" alt="" class="img-responsive">
+						<div class="agile-caption">
+							<h3>Jquery</h3>
+						</div>
+					</div>
+				</div>
+				<div data-aos="flip-right" class="col-md-6 skill-img aos-init">
+					<div class="box-agile">
+						<img src="images/s4.jpg" alt="" class="img-responsive">
+						<div class="agile-caption">
+							<h3>JavaScript</h3>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="col-md-6 skill-grids-right">
+
+				<!-- Skills -->
+				<div class="skillbar clearfix " data-percent="80%">
+					<div class="skillbar-title" style="background: #146eb4;"><span>C</span></div>
+					<div class="skillbar-bar" style="background: rgb(20, 110, 180) none repeat scroll 0% 0%; width: 80%;"></div>
+					<div class="skill-bar-percent">80%</div>
+				</div> <!-- End Skill Bar -->
+
+				<div class="skillbar clearfix " data-percent="40%">
+					<div class="skillbar-title" style="background: #11b563;"><span>C++</span></div>
+					<div class="skillbar-bar" style="background: rgb(17, 181, 99) none repeat scroll 0% 0%; width: 40%;"></div>
+					<div class="skill-bar-percent">40%</div>
+				</div>
+				<div class="skillbar clearfix " data-percent="30%">
+					<div class="skillbar-title" style="background: #ff4f81;"><span>Python</span></div>
+					<div class="skillbar-bar" style="background: rgb(255, 79, 129) none repeat scroll 0% 0%; width: 30%;"></div>
+					<div class="skill-bar-percent">30%</div>
+				</div>
+				<div class="skillbar clearfix " data-percent="50%">
+					<div class="skillbar-title" style="background: #ff9900;"><span>Shell</span></div>
+					<div class="skillbar-bar" style="background: rgb(255, 153, 0) none repeat scroll 0% 0%; width: 50%;"></div>
+					<div class="skill-bar-percent">50%</div>
+				</div>
+
+				<div class="skillbar clearfix " data-percent="70%">
+					<div class="skillbar-title" style="background: #8e43e7;"><span>HTML5</span></div>
+					<div class="skillbar-bar" style="background: rgb(142, 67, 231) none repeat scroll 0% 0%; width: 70%;"></div>
+					<div class="skill-bar-percent">70%</div>
+				</div>
+				<div class="skillbar clearfix " data-percent="60%">
+					<div class="skillbar-title" style="background: #146eb4;"><span>CSS</span></div>
+					<div class="skillbar-bar" style="background: rgb(20, 110, 180) none repeat scroll 0% 0%; width: 60%;"></div>
+					<div class="skill-bar-percent">60%</div>
+				</div>
+				<div class="skillbar clearfix " data-percent="50%">
+					<div class="skillbar-title" style="background: #11b563;"><span>JavaScript</span></div>
+					<div class="skillbar-bar" style="background: rgb(17, 181, 99) none repeat scroll 0% 0%; width: 50%;"></div>
+					<div class="skill-bar-percent">50%</div>
+				</div>
+				<div class="skillbar clearfix " data-percent="40%">
+					<div class="skillbar-title" style="background: #ff4f81;"><span>Jquery</span></div>
+					<div class="skillbar-bar" style="background: rgb(255, 79, 129) none repeat scroll 0% 0%; width: 40%;"></div>
+					<div class="skill-bar-percent">40%</div>
+				</div>
+
+
+
+				<p class="p1">
+					I use C and C++ as competitive programming languages.
+					HTML5, CSS, Bootstrap, Javascript  and Jquery as languages for frontend development
+					Python and Flask as languages for backend development.
+					I made Book My Show web app with complete frontend and backend in my 2nd semester.
+				</p>
+				<!-- //Skills -->
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid">
+	<div class="main-head">
+		<h1 data-aos="zoom-in"  id="journey">Journey So Far</h1>
+	</div>
+	<div>
+		<p style="margin:30px;font-size: 15px">
+		I believe Success is a journey, not a destination. The doing is often more important than the outcome.
+		My journey so far has been full of ups and downs. I had fascination for computer games from a very young age.
+		Since childhood, I was very hardworking and was always curious to learn new things. My journey started when I was in 7th standard and
+		came to know about NTSE form my friends. I was motivated by the Newspaper Ads in which the students who cracked this exam were awarded and called
+		scholars. It fascinated me about being called a scholar. So, in 8th class I joined Iquest for preparing for NTSE.
+			I work hard with determination and motivation and with the help of teachers and parents,I was able crack <b id="to-highlight">NTSE</b>. This was the first exam that gave me a
+		proper feel of competition at All India level. This was my first step towards my journey of life.
+		</p>
+		<p style="margin:30px;font-size: 15px">
+		As we know sometimes it's the journey that teaches you a lot about your destination.
+		After cracking NTSE, I started learning the basic concepts of maths and science of 11th and 12th for RMO and NSEJS as I enjoyed them.
+		I represented my school in many science quizes,exhibitions at distict level and won various prizes for school.
+			Lots of competitive exams organised by private companies were held in our school. One of them was <b id="to-highlight">NAO</b>(National Astronomy Olympaid),
+			It is an Astronomy olympaid orgainised by Orange Education. I always had an interest in knowing about stars,planets and universe.
+			So, I filled this olympaid in order to study these things. In this olympaid I got AIR-1 and got free trip to NASA's Kenedy Space Centre.
+		</p>
+		<p style="margin:30px;font-size: 15px">
+			With my hardwork and compassion, I was able to become state topper in both Maths and Science olympaids organized by SOF.
+			I could n't crack Pre-RMO in 10th but cracked <b id="to-highlight">NSEJS</b> - I was one of the three, who cracked that olympaid from Punjab.
+
+			Then I started thinking about where I should take coaching for JEE-ADVANCE.
+			So I filled admission tests of few coaching institutes.	I got rank 1 <b id="to-highlight">TALLENTEX</b>(admission test of ALLEN) and got cash reward and scholarship.
+		I was also the topper of admission test of LAKSHYA.
+
+			With these achievements I filled <b id="to-highlight">Allen Champ</b>, which is honoring & mentoring program for rewarding the Academically Talented Students of
+		the country organised by ALLEN and got selected for the top in country. It was my best time in life and was like a dream to me.
+		</p>
+		<p style="margin:30px;font-size: 15px">
+			I decided to continue my journey with <b id="to-highlight">Iquest</b>.
+			In 11th I cracked <b id="to-highlight">RMO</b> and got good score in INMO.I also cracked KVPY-I.
+			In 12th I could n't crack any of the olympaids of physics,astronomy and chemistry.
+			I cracked <b id="to-highlight">KVPY</b> both stages and scored 304 out of 360 in <b id="to-highlight">JEE-MAINS</b> and got 1599 rank in <b id="to-highlight">JEE-ADVANCED</b>.
+		I always had interest in computers, websites, mobile phones apps and things like hacking interested me lot so I took CSE in IIIT.
+		My achievement of first year with IIIT is awesome. We were taught lots and lots of new stuff.
+		The journey is valuable, but believing in your talents,your abilities, and your self-worth can empower you to walk down an even brighter path.
+		I believe in hardwork and self-confidence with determination can help you achieve your dreams.
+		</p>
+	</div>
+</div>
+<!--div class="container-fluid">
+	<div class="col-md-6 about-right aos-init aos-animate" data-aos="flip-right">
+		<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+			<div class="main-head">
+				<h1 data-aos="zoom-in"  id="education" style="margin-top: 40px"><i class="fa fa-certificate w3-xlarge w3-margin-right"></i>Education</h1>
+			</div>
+			<div class="sub-head">
+				<h5 class="w3-opacity"><b>IIIT Hyderabad</b></h5>
+				<h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016-<span class="curr w3-round" >Current</span></h6>
+				<p>B.Tech in Computer Science Engineering(CSE)</p>
+				<hr>
+			</div>
+			<div class="sub-head">
+				<h5 class="w3-opacity"><b>BIPS</b></h5>
+				<h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2016</h6>
+				<p>11th and 12th</p>
+				<hr>
+			</div>
+			<div class="sub-head">
+				<h5 class="w3-opacity"><b>DAV</b></h5>
+				<h6><i class="fa fa-calendar fa-fw w3-margin-right"></i>2002 - 2014</h6>
+				<p></p><br>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6" data-aos="flip-left">
+		<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+			<div class="main-head">
+				<h1 data-aos="zoom-in" style="margin-top: 40px"><i class="fa fa-suitcase w3-xlarge w3-margin-right"></i>my Skills</h1>
+			</div>
+			<h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work achievement</h2>
+			<div class="w3-container">
+				<h5 class="w3-opacity"><b>Nulla tempora soluta ea et odio, unde doloremque </b></h5>
+				<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>udne - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+				<p>t reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque r</p>
+				<hr>
+			</div>
+			<div class="w3-container">
+				<h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
+				<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+				<p>Cprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repe.</p>
+				<hr>
+			</div>
+			<div class="w3-container">
+				<h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
+				<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+			</div>
+		</div>
+	</div>
+</div-->
+<div class="main-head" style="margin-top: 40px;margin-bottom: 50px">
+	<h1 data-aos="zoom-in" id="thriumps">Thriumps</h1>
+</div>
+<div class="spacer">
+	<!-- Work achievement Loop -->
+	<div class="col-md-6 col-xs-12">
+		<div class="achievement-wrap achievement" data-aos="fade-right">
+			<div class="date-wrap">
+				2016
+			</div>
+			<div class="text-wrap">
+				<div class="exam-name">
+					<h3>JEE MAINS<span class="tooltiptext">The Joint Entrance Examination (Main), is a national level competitive test is for
+						admission to various undergraduate engineering and architecture organised by the Central Board of Secondary Education (CBSE)</span></h3>
+				</div>
+				<div class="text-inner">
+					I scored 304 marks in <a href="jeemain.nic.in/">JEE MAINS</a> and got AIR-740.<br>
+					My score was the 2nd highest score in Punjab.<br/>
+					My board percentage was 93%.<br/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work achievement Loop -->
+
+	<!-- Work achievement Loop -->
+	<div class="col-md-6 col-xs-12">
+		<div class="achievement-wrap achievement" data-aos="fade-left">
+			<div class="date-wrap">
+				2016
+			</div>
+			<div class="text-wrap">
+				<div class="exam-name">
+					<h3>JEE ADVANCED<span class="tooltiptext">JEE-Advanced is for admission to the Indian Institutes of Technology (IITs).
+						Only the students selected in JEE Mains are eligible for appearing in JEE Advanced</span></h3>
+				</div>
+				<div class="text-inner">
+					I got AIR-1599 in <a href="https://www.jeeadv.ac.in/">JEE-ADVANCED</a>. I prepared for Advance since 11th<br>
+					standard. My rank wasn't altough upto my expectations but it<br/>
+					helped me to grow a lot more.<br/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work achievement Loop -->
+	<div class="clearfix"></div>
+</div>
+<div class="spacer">
+	<!-- Work achievement Loop -->
+	<div class="col-md-6 col-xs-12">
+		<div class="achievement-wrap achievement" data-aos="fade-right">
+			<div class="date-wrap">
+				2016
+			</div>
+			<div class="text-wrap">
+				<div class="exam-name">
+					<h3>KVPY<span class="tooltiptext">Kishore Vaigyanik Protsahan Yojana (KVPY) is a scholarship exam help by  Government of India,
+					aimed at encouraging students to take up research careers in the areas of basic sciences, engineering
+					and medicine.</span></h3>
+				</div>
+				<div class="text-inner">
+					<a href="http://kvpy.iisc.ernet.in">KVPY </a> is an exam held in two stages: Written exam and Interview<br>
+					I could qualify only the 1st stage in 11th<br>
+					But, In 12th I qualified both stages.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work achievement Loop -->
+
+	<!-- Work achievement Loop -->
+	<div class="col-md-6 col-xs-12">
+		<div class="achievement-wrap achievement" data-aos="fade-left">
+			<div class="date-wrap">
+				2015
+			</div>
+			<div class="text-wrap">
+				<div class="exam-name">
+					<h3>RMO<span class="tooltiptext">Regional Mathematical Olympiad(RMO) is an exam in which around thirty students are selected from each region,
+						to write the  Indian National Mathematical Olympiad (INMO),and is conducted by the Homi Bhabha Centre for Science Education (HBCSE)</span></h3>
+				</div>
+				<div class="text-inner">
+					I qualified <a href="http://olympiads.hbcse.tifr.res.in/">RMO</a> in class 11th. I was one of the thirty students who got selected from my region.
+					This olympaid helped me exploring topics like Number Theory, Geometry and improved my problem solving skills.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work achievement Loop -->
+	<div class="clearfix"></div>
+</div>
+<div class="spacer">
+	<!-- Work achievement Loop -->
+	<div class="col-md-6 col-xs-12">
+		<div class="achievement-wrap achievement" data-aos="fade-right">
+			<div class="date-wrap">
+				2014
+			</div>
+			<div class="text-wrap">
+				<div class="exam-name">
+					<h3>NSEJS<span class="tooltiptext">
+						The National Standard Examination in Junior Science(NSEJS) is an examination in physics for higher secondary school students,
+						organized by the IAPT in association with HBCSE,
+						NSEJS is considered toughest science exam on higher secondary level globally.</span></h3>
+				</div>
+				<div class="text-inner">
+					I qualified <a href="http://www.iapt.org.in">NSEJS</a> in class 10th. I was one of the 3 students who were selected from Punjab to write Indian National Junior Science Olympiad(INJSO).
+					The preparation of this olympaid helped me in learning the basics concepts of science of 11th and 12th.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work achievement Loop -->
+
+	<!-- Work achievement Loop -->
+	<div class="col-md-6 col-xs-12">
+		<div class="achievement-wrap achievement" data-aos="fade-left">
+			<div class="date-wrap">
+				2014
+			</div>
+			<div class="text-wrap">
+				<div class="exam-name">
+					<h3>NAO<span class="tooltiptext">
+						NAO stands for Journey to NASA - National Astronomy Olympiad, being one of the unique and innovative platform it also serves
+						an opportunity to the students by providing them the exposure to astronomy and a chance to visit NASA.</span></h3>
+				</div>
+				<div class="text-inner">
+					I got AIR-1 in <a href="www.nao.us.com">NAO</a> olympaid and got free trip to NASA's Kenedy Space Center,USA.
+					From my childhood I was facinated by stars and planets so I loved to study them.
+					This exam gave me a lot of self-confidence and also improved my knowledge about astronomy.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work achievement Loop -->
+	<div class="clearfix"></div>
+</div>
+<div class="spacer">
+	<!-- Work achievement Loop -->
+	<div class="col-md-6 col-xs-12">
+		<div class="achievement-wrap achievement" data-aos="fade-right">
+			<div class="date-wrap">
+				2014
+			</div>
+			<div class="text-wrap">
+				<div class="exam-name">
+					<h3>ALLEN Champ<span class="tooltiptext">
+						ALLEN Champ is India’s Unique Honoring & Mentoring program for rewarding the Academically Talented Students of
+						the country. It aims at honoring the young champions of the nation, for boosting their confidence to perform better in future academic career.
+						</span></h3>
+				</div>
+				<div class="text-inner">
+					<a href="http://www.allenchamp.com/"> Allen Champ</a> is India’s Unique Honoring & Mentoring started by ALLEN
+					I got selected in top 10 in India because of my academic talent as I cracked NTSE,NAO and NSEJS as well as performed very
+					well in olympaids organized by SOF.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work achievement Loop -->
+
+	<!-- Work achievement Loop -->
+	<div class="col-md-6 col-xs-12">
+		<div class="achievement-wrap achievement" data-aos="fade-left">
+			<div class="date-wrap">
+				2012
+			</div>
+			<div class="text-wrap">
+				<div class="exam-name">
+					<h3>NTSE<span class="tooltiptext">National Talent Search Examination is a national-level scholarship program in India
+						to identify and recognize students with high intellect and academic talent. It is one of the most prestigious exams in India.
+						Close to 5 lac students appear in this scholarship exam, and only 1000 scholarships are awarded</span></h3>
+				</div>
+				<div class="text-inner">
+					I cracked <a href="http://www.ncert.nic.in/programmes/talent_exam/index_talent.html">NTSE</a>
+					in class 8th. NTSE was the first thing in life that I could be proud as it is one of the most prestigious exams in our country.
+					I got AIR around 150-200 and gave me a unique title 'NTSE Scholar'.
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Work achievement Loop -->
+	<div class="clearfix"></div>
+</div>
+<div class="content-wrap">
+	<section id="section-bar-1" class="content-current" style="padding-bottom: 5%">
+		<div class="container">
+			<div class="main-head">
+				<h1 data-aos="zoom-in" id="portfolio">PortFolio</h1>
+			</div>
+		</div>
+		<div class="gallery-grids">
+
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/sir.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/sir.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Triund Trip</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/flashmob.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/flashmob.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Flash Mob</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/party.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/party.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Birthday Party</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/hp.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/hp.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>House Party</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/cruster.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/cruster.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Cluster 7</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/cel1.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/cel1.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>KVPY</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/cel3.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/cel3.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>RMO</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/parents.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/parents.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Parents</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/prermo.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/prermo.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Pre-RMO</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/nasa.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/nasa.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>NASA</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/liberty.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/liberty.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Statue of Liberty, USA</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/helicopter.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/helicopter.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Helicopter Ride</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/pic1.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/pic1.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Journey to NASA</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/allen3.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/allen3.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>Allen Champ</h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+
+			<div class="col-md-4 col-sm-4 gallery-top">
+				<a href="images/nsejsdav.jpg" class="swipebox" data-gallery>
+					<figure class="effect-bubba">
+						<img src="images/nsejsdav.jpg" alt="" class="img-responsive">
+						<figcaption>
+							<h4>NSEJS </h4>
+							<h5>View Image</h5>
+						</figcaption>
+					</figure>
+				</a>
+			</div>
+			<div class="clearfix"></div>
+
+
+
+
+
+
+
+
+			<div class="clearfix"></div>
+		</div>
+	</section>
+</div>
+<div  class="container-fluid">
+
+	<div class="col-lg-4">
+		<div class="main-head" style="text-align: right">
+			<h1 id="contact" data-aos="zoom-in" >Locate Me</h1>
+		</div>
+		<!--h3 data-aos="zoom-in" style="text-align: right">Locate Me</h3-->
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:380px;width:800px;margin-bottom: 60px'><div id='gmap_canvas' style='height:380px;width:800px;'></div><div><small><a href="http://embedgooglemaps.com">Click here to generate your map!</a></small></div><div><small><a href="https://ultimatewebtraffic.com/product/buy-targeted-traffic/">We aim accurately on your targeted traffic. Buy website traffic!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(17.55107340044566,78.39100818580005),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(17.55107340044566,78.39100818580005)});infowindow = new google.maps.InfoWindow({content:'<strong>OBH,IIITH</strong><br>IIIT Hyderabad<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+	</div>
+	<div class="col-lg-4">
+	</div>
+	<div class="col-lg-4">
+		<div class="main-head" style="text-align: center">
+			<h1 data-aos="zoom-in" >Contact Me</h1>
+		</div>
+		<ul class="w3-ul w3-card-4">
+			<li class="w3-padding-16" data-aos="flip-down">
+				<span class="glyphicon glyphicon-map-marker w3-left w3-circle w3-margin-right" aria-hidden="true"></span>
+				<span class="w3-large">IIIT Hyderabad</span><br>
+				<span>Gachibowli</span><br>
+				<span>Hyderabad, Telangana 500032, India</span>
+			</li>
+			<li class="w3-padding-16" data-aos="flip-down">
+				<span class="glyphicon glyphicon-phone w3-left w3-circle w3-margin-right" aria-hidden="true"></span>
+				<span class="w3-large">Phone No.</span><br>
+				<span>xxxxxxx</span>
+			</li>
+			<li class="w3-padding-16" data-aos="flip-up">
+				<span class="glyphicon glyphicon-envelope w3-left w3-circle w3-margin-right" aria-hidden="true"></span>
+				<span>kunal.garg@students.iiit.ac.in</span><br>
+				<span>kunalgarg2100@gmail.com</span>
+			</li>
+		</ul>
+		<br/>
+		<br/>
+
+		<ul class="top-links" style="margin-top: 30px">
+			<li class="aos-init aos-animate" data-aos="flip-right"><a href="http://facebook.com/kunalgarg2100" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			<li class="aos-init aos-animate" data-aos="flip-right"><a href="https://www.quora.com/profile/Kunal-Garg-77" target="_blank"><i class="fa fa-quora" aria-hidden="true"></i></a></li>
+			<li data-aos="flip-right" class="aos-init aos-animate"><a href="https://github.com/Kunalgarg2100" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+			<li data-aos="flip-right" class="aos-init aos-animate"><a href="#" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+			<li data-aos="flip-right" class="aos-init aos-animate"><a href="https://linkedin.com/in/kunal-garg-72aa08137" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+			<li data-aos="flip-right" class="aos-init aos-animate"><a href="https://www.instagram.com/kunalgarg2100/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		</ul>
+	</div>
+</div>
+<div class="copyright-agile">
+	<div class="container">
+		<p>Copyright© 2017 Kunal Garg. All rights reserved.</p>
+		<div class="clearfix"></div>
+	</div>
+</div>
+<div class="styleswitcher">
+	<div class="arrow-box"><a class="switch-button open"><i class="fa fa-gear fa-2x"></i></a> </div>
+	<h6>Color Skins</h6>
+	<ul class="color-scheme">
+		<li><a class="jgger" rel="css/theme/jgger.css" href="#"></a></li>
+		<li><a class="gold" rel="css/theme/gold.css" href="#"></a></li>
+		<li><a class="apple" rel="css/theme/apple.css" href="#"></a></li>
+		<li><a class="pink" rel="css/theme/pink.css" href="#"></a></li>
+		<li><a class="teal" rel="css/theme/teal.css" href="#"></a></li>
+		<li><a class="downy" rel="css/theme/downy.css" href="#"></a></li>
+		<li><a class="atlantis" rel="css/theme/atlantis.css" href="#"></a></li>
+		<li><a class="red" rel="css/theme/red.css" href="#"></a></li>
+		<li><a class="violet" rel="css/theme/violet.css" href="#"></a></li>
+		<li><a class="pomegranate" rel="css/theme/pomegranate.css" href="#"></a></li>
+		<li><a class="violet-red" rel="css/theme/violet-red.css" href="#"></a></li>
+		<li><a class="mexican-red" rel="css/theme/mexican-red.css" href="#"></a></li>
+		<li><a class="victoria" rel="css/theme/victoria.css" href="#"></a></li>
+		<li><a class="orient" rel="css/theme/orient.css" href="#"></a></li>
+		<li><a class="default" rel="css/theme/default.css" href="#"></a></li>
+		<li><a class="de-york" rel="css/theme/de-york.css" href="#"></a></li>
+		<li><a class="blaze-orange" rel="css/theme/blaze-orange.css" href="#"></a></li>
+		<li><a class="hot-pink" rel="css/theme/hot-pink.css" href="#"></a></li>
+	</ul>
+</div>
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+	<!-- The container for the modal slides -->
+	<div class="slides"></div>
+	<!-- Controls for the borderless lightbox -->
+	<h3 class="title">Title</h3>
+	<a class="prev">‹</a>
+	<a class="next">›</a>
+	<a class="close">×</a>
+	<!-- The modal dialog, which will be used to wrap the lightbox content -->
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $().UItoTop({ easingType: 'easeOutQuart' });
+
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $(".switch-button").click(function () {
+            if ($(this).is(".open")) {
+                $(this).addClass("closed");
+                $(this).removeClass("open");
+                $(".styleswitcher").animate({
+                    "right": "-202px"
+                })
+            } else {
+                $(this).addClass("open");
+                $(this).removeClass("closed");
+                $(".styleswitcher").animate({
+                    "right": "0px"
+                })
+            }
+        });
+        if ($.cookie("css")) {
+            $("link.alt").attr("href", $.cookie("css"));
+        }
+        $(".color-scheme a").click(function () {
+            $("link.alt").attr("href", $(this).attr("rel"));
+            $.cookie("css", $(this).attr('rel'), {expires: 365, path: '/'});
+            return false
+        });
+
+    });
+</script> <!--Styleswitcher js-->
+</body>
+
+<script>
+    $(document).ready(function() {
+        		//Preloader
+        $(window).ready(function() {
+
+            preloaderFadeOutTime = 10;
+            function hidePreloader() {
+                var preloader = $('#pageloader');
+                preloader.fadeOut(preloaderFadeOutTime);
+            }
+            hidePreloader();
+
+
+				//OWl-carousel
+            $("#owl-demo").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+                items : 4,
+                itemsDesktop : [1199,3],
+                itemsDesktopSmall : [979,3]
+
+            });
+        });
+        // Enable Carousel Controls
+        $(".left").click(function(){
+            $("#myCarousel").carousel("next");
+        });
+        $(".right").click(function(){
+            $("#myCarousel").carousel("prev");
+        });
+        $('#dp1').hover(
+            function(){ $(".c1").css("display","block"); },
+            function(){ $(".c1").css("display","none"); }
+        )
+        $('#dp2').hover(
+            function(){ $(".c2").css("display","block"); },
+            function(){ $(".c2").css("display","none"); }
+        )
+        $('#dp3').hover(
+            function(){ $(".c3").css("display","block"); },
+            function(){ $(".c3").css("display","none"); }
+        )
+        $('#dp4').hover(
+            function(){ $(".c4").css("display","block"); },
+            function(){ $(".c4").css("display","none"); }
+        )
+        // Add scrollspy to <body>
+        $('body').scrollspy({target: ".navbar", offset: 50});
+
+        // Add smooth scrolling on all links inside the navbar
+        $("#myNavbar a").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 600, function(){
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            }  // End if
+        });
+
+        $('.skillbar').appear();
+        $('.skillbar').on('appear', function () {
+            $(this).find('.skillbar-bar').animate({
+                width: $(this).attr('data-percent')
+            }, 3000);
+        });
+
+
+    });
+
+</script><!--preloader-->
+<script>
+    $(document).ready(function() {
+        'use strict';
+
+        jQuery('.panel-heading a').click(function () {
+            $('.panel-heading').removeClass('actives');
+            $(this).parents('.panel-heading').addClass('actives');
+        });
+
+        //Shrink Header
+        $(function () {
+            var shrinkHeader = 130;
+            $(window).scroll(function () {
+                var scroll = getCurrentScroll();
+                if (scroll >= shrinkHeader) {
+                    $('header').addClass('colored');
+                } else {
+                    $('header').removeClass('colored');
+                }
+            });
+
+            function getCurrentScroll() {
+                return window.pageYOffset || document.documentElement.scrollTop;
+            }
+        });
+
+        $("html").niceScroll({
+            cursorwidth: "13px",
+            cursorborder: "none",
+            cursorborderradius: "0",
+            zindex: "100000"
+        });
+
+		/* Tooltip */
+        $('a.like-icons, a.comments-icon, .social-icons ul li a, .demo-button a').tooltip({
+            placement: 'top',
+            animation: true,
+            delay: {show: 200, hide: 100}
+        });
+
+        //Shrink Header
+        $(function () {
+            var shrinkHeader = 200;
+            $(window).scroll(function () {
+                var scroll = getCurrentScroll();
+                if (scroll >= shrinkHeader) {
+                    $('.navbar ').addClass('colored');
+                } else {
+                    $('.navbar').removeClass('colored');
+                }
+            });
+
+            function getCurrentScroll() {
+                return window.pageYOffset || document.documentElement.scrollTop;
+            }
+        });
+
+
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+
+
+    });
+</script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script><!-- Owl - Carousel-->
+<!--script type="text/javascript" src="js/jquery.nicescroll.min.js"></script><!--To improve scroll-bar-->
+<script src="js/jquery.blueimp-gallery.min.js"></script><!-- gallery -->
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/aos.js"></script><!-- //animation effects-js-->
+<script src="js/aos1.js"></script><!-- //animation effects-js-->
+</html>

@@ -1,0 +1,81 @@
+	/*!--body and fade animation--*/
+
+		body {
+			position: relative;
+			margin: 0;
+			height: 100%;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 14px;
+			line-height: 24px;
+			color: #666;
+			background: #f1f0f0;
+		}
+		/* Fading animation */
+		.fade {
+			-webkit-animation-name: fade;
+			-webkit-animation-duration: 4s;
+			animation-name: fade;
+			animation-duration: 4s;
+		}
+
+		@-webkit-keyframes fade {
+			from {
+				opacity: .4
+			}
+			to {
+				opacity: 1
+			}
+		}
+
+		@keyframes fade {
+			from {
+				opacity: .4
+			}
+			to {
+				opacity: 1
+			}
+		}
+		/* === END === */
+		/* On smaller screens, decrease text size */
+		@media only screen and (max-width: 300px) {
+			.text {
+
+				font-size: 11px
+			}
+		}
+		/********************
+        *****Slide effect
+        **********************/
+
+		.fade {
+			opacity: 1;
+		}
+		.fade .item {
+			top: 0;
+			z-index: 1;
+			opacity: 0;
+			width: 100%;
+			position: absolute;
+			left: 0 !important;
+			display: block !important;
+			-webkit-transition: opacity ease-in-out 1s;
+			-moz-transition: opacity ease-in-out 1s;
+			-ms-transition: opacity ease-in-out 1s;
+			-o-transition: opacity ease-in-out 1s;
+			transition: opacity ease-in-out 1s;
+		}
+		.fade .item:first-child {
+			top: auto;
+			position: relative;
+		}
+		.fade .item.active {
+			opacity: 1;
+			z-index: 2;
+			-webkit-transition: opacity ease-in-out 1s;
+			-moz-transition: opacity ease-in-out 1s;
+			-ms-transition: opacity ease-in-out 1s;
+			-o-transition: opacity ease-in-out 1s;
+			transition: opacity ease-in-out 1s;
+		}
+
+	

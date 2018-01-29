@@ -1,0 +1,96 @@
+
+		.spacer {
+			padding-bottom: 70px;
+		}
+
+		/* === achievement column===*/
+		.achievement-wrap{
+			margin:0;
+			position:relative;
+		}
+
+		/*===END===*/
+
+		/*=== EXAM year===*/
+		.date-wrap{
+			float:left;
+			position:relative;
+			letter-spacing:0.1em;
+			color:#FFF;
+			padding:10px;
+			line-height:24px;
+			width:110px;
+			text-align:center;
+			font-size: 20px;
+			border-bottom: 1px solid;
+
+		}
+		/*===END===*/
+
+		/*===Details and name of EXAM===*/
+		.text-wrap{
+			overflow:hidden;
+		}
+		/*===END===*/
+
+		/* === Exam NAME and explanation of exam on hovering===*/
+		.exam-name .tooltiptext {
+			visibility: hidden;
+			width: 551px;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding: 5px 5px;
+			font-size: 16px;
+			/* Position the tooltip */
+			position: absolute;
+			z-index: 1;
+			top: 29%;
+			left: 50%;
+			margin-left: -302px;
+		}
+		.exam-name h3{
+			margin: 0;
+			font-size: 22px;
+		}
+		.exam-name h3:hover{
+			cursor: pointer;
+		}
+
+		.exam-name h3:hover .tooltiptext{
+			visibility: visible;
+			opacity: 1;
+		}
+		.exam-name .tooltiptext::after {
+			content: "";
+			position: absolute;
+			bottom: 100%;
+			left: 50%;
+			margin-left: -141px;
+			border-width: 8px;
+			border-style: solid;
+		}
+		.exam-name{
+			background:#f8f8f8;
+			padding:10px 10px;
+			border-bottom:1px solid;
+		}
+		/*===END===*/
+
+		.text-inner{
+			padding:20px;
+		}
+		/*=== pic of scholar===*/
+		.achievement:after{
+			content:"\f19d";
+			position:absolute;
+			font-size:60px;
+			text-align:center;
+			left:0;
+			width:110px;
+			font-family:'FontAwesome';
+			bottom:40px;
+		}
+		/*===END===*/
+
+	

@@ -1,0 +1,85 @@
+/* === About me heading===*/
+		.main-head{
+			text-align:center;
+			margin:0 0 40px 0;
+			
+		}
+		.main-head h1{
+			padding:0 18px;
+			height:60px;
+			line-height:60px;
+			color:#FFF;
+			letter-spacing:0.3em;
+			font-size:18px;
+			font-weight:300;
+			text-transform:uppercase;
+			display:inline-block;
+			margin:10px 0;
+			position:relative;
+		}
+		.main-head h1::after {
+			border: 1px solid #cacaca;
+			content: "";
+			height: 76px;
+			left: 0;
+			margin: 0 4%;
+			position: absolute;
+			top: -8px;
+			width: 92%;
+			z-index: -100;
+		}
+		/*=== END ===*/
+
+		/*===sub-headings===*/
+		.subb-head {
+			background: #FFF;
+			letter-spacing: 0.1em;
+			color: #333;
+			text-transform: uppercase;
+			font-weight: 300;
+			display: inline-block;
+			padding: 6px 12px;
+			font-size: 14px;
+			margin: 0 0 30px 0;
+		}
+		/*=== END ===*/
+		/*=== Story and Author's info ===*/
+		#story {
+			margin-right: 20px;
+		}
+		.author-info{
+			background:#373737;
+		}
+		.author-info ul{
+			margin:0;
+			padding:0;
+			list-style-type:none;
+		}
+		.author-info ul li{
+			padding:11px 25px;
+			border-bottom:1px solid #9b9b9b;
+			color:#FFF;
+		}
+		/*===END===*/
+
+		/*=== horizontal carousel===*/
+		.divider-spacer {
+			height: 20px;
+		}
+
+		#owl-demo .item{
+			margin: 3px;
+			width: 262.5px;
+		}
+		.hobbies-wrap{
+			text-align:center;
+			padding:20px 0;
+			letter-spacing:0.1em;
+			text-transform:uppercase;
+			color:#FFF;
+		}
+		.hobbies-wrap i{
+			font-size:36px;
+			display:block;
+		}
+		/*===END===*/

@@ -1,0 +1,25 @@
+/* Text Theme Color */
+a, .author-name span,.sub-head h5,.sub-head h6, .thumb, .awards-text h3 span, .counter, #grid-container .cbp-l-caption-title, .btn-square:hover, .theme-tab .nav-tabs > li.active > a, .theme-tab .nav-tabs > li.active > a:hover, .theme-tab .nav-tabs > li.active > a:focus, .jumbotron h1,span.glyphicon:hover{color:#fbb829;}
+
+/* Background Theme Color */
+.know-more, .download-CV:hover,span.glyphicon,.logo a::after, .owl-controls .owl-dot.active span, .owl-controls.clickable .owl-dot:hover span, .owl-controls .owl-dot:hover span, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover, .enter-btn, .main-head h1, .hobbies-wrap, .btn-border-round.dark:hover,.icon-wrap, .skillbar-bar, .price-box, .singup-btn a:hover, .callout-box, .btn-round, #contact_form .form-btn, .theme-accordian .panel-default > .panel-heading.actives, .btn-border-round:hover, .theme-tab .nav > li > a:hover, .theme-accordian .panel-default > .panel-heading:hover, .alert-theme, .share-this .social-icons ul li a:hover, .reply-btn a, .tags a:hover,.exam-name .tooltiptext ,.date-wrap , .curr{background-color:#fbb829;}
+
+/* Border Theme Color */
+.btn-border-round.dark:hover, .text-wrap, .btn-border-round:hover, .theme-tab .nav > li > a:hover{
+	border-color:#fbb829;
+}
+
+.w3-card, .w3-card-2 {
+    box-shadow: 0px 0px 5px 0px #fbb829;
+}
+
+.know-more,.download-CV:hover,span.glyphicon:hover,.logo ,.w3-card, .w3-card-2{
+	border:2px solid #fbb829;
+}
+
+.exam-name .tooltiptext::after {
+border-color: transparent transparent #fbb829 transparent;
+}
+.text-wrap{
+border-left:1px solid  #fbb829;
+}

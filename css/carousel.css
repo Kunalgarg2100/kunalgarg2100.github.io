@@ -1,0 +1,131 @@
+/* Slideshow container */
+
+		.slideshow-container {
+			width: 100%;
+			position: relative;
+			margin: auto;
+			height: 100vh;
+		}
+		/* === END === */
+
+
+		/*---------- LEFT/RIGHT ROUND CONTROL ----------*/
+		.control-round .carousel-control {
+			top: 47%;
+			opacity: 0;
+			width: 45px;
+			height: 45px;
+			z-index: 100;
+			color: #ffffff;
+			display: block;
+			font-size: 24px;
+			cursor: pointer;
+			overflow: hidden;
+			line-height: 43px;
+			text-shadow: none;
+			position: absolute;
+			font-weight: normal;
+			background: transparent;
+			-webkit-border-radius: 100px;
+			border-radius: 100px;
+		}
+		.control-round:hover .carousel-control{
+			opacity: 1;
+		}
+		.control-round .carousel-control.left {
+			left: 1%;
+		}
+		.control-round .carousel-control.right {
+			right: 1%;
+		}
+		.control-round .carousel-control.left:hover,
+		.control-round .carousel-control.right:hover{
+			color: #fdfdfd;
+			background: rgba(0, 0, 0, 0.5);
+			border: 0px transparent;
+		}
+		.control-round .carousel-control.left>span:nth-child(1){
+			left: 45%;
+		}
+		.control-round .carousel-control.right>span:nth-child(1){
+			right: 45%;
+		}
+		/*---------- INDICATORS CONTROL ----------*/
+		.indicators-line > .carousel-indicators{
+			right: 45%;
+			bottom: 3%;
+			left: auto;
+			width: 90%;
+			height: 20px;
+			font-size: 0;
+			overflow-x: auto;
+			text-align: right;
+			overflow-y: hidden;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 1px;
+			white-space: nowrap;
+		}
+		.indicators-line > .carousel-indicators li{
+			padding: 0;
+			width: 15px;
+			height: 15px;
+			border: 1px solid rgb(158, 158, 158);
+			text-indent: 0;
+			overflow: hidden;
+			text-align: left;
+			position: relative;
+			letter-spacing: 1px;
+			background: rgb(158, 158, 158);
+			-webkit-font-smoothing: antialiased;
+			-webkit-border-radius: 50%;
+			border-radius: 50%;
+			margin-right: 5px;
+			-webkit-transition: all 0.5s cubic-bezier(0.22,0.81,0.01,0.99);
+			transition: all 0.5s cubic-bezier(0.22,0.81,0.01,0.99);
+			z-index: 10;
+			cursor:pointer;
+		}
+		.indicators-line > .carousel-indicators li:last-child{
+			margin-right: 0;
+		}
+		.indicators-line > .carousel-indicators .active{
+			margin: 1px 5px 1px 1px;
+			box-shadow: 0 0 0 2px #fff;
+			background-color: transparent;
+			position: relative;
+			-webkit-transition: box-shadow 0.3s ease;
+			-moz-transition: box-shadow 0.3s ease;
+			-o-transition: box-shadow 0.3s ease;
+			transition: box-shadow 0.3s ease;
+			-webkit-transition: background-color 0.3s ease;
+			-moz-transition: background-color 0.3s ease;
+			-o-transition: background-color 0.3s ease;
+			transition: background-color 0.3s ease;
+
+		}
+		.indicators-line > .carousel-indicators .active:before {
+			transform: scale(0.5);
+			background-color: #fff;
+			content: "";
+			position: absolute;
+			left: -1px;
+			top: -1px;
+			width: 15px;
+			height: 15px;
+			border-radius: 50%;
+			-webkit-transition: background-color 0.3s ease;
+			-moz-transition: background-color 0.3s ease;
+			-o-transition: background-color 0.3s ease;
+			transition: background-color 0.3s ease;
+		}
+		.carousel-indicators{
+			margin-bottom: 0px;
+		}
+
+		.carousel-inner{
+			height: 100%;
+			position: relative;
+			width: 100%;
+			overflow: hidden;
+		}

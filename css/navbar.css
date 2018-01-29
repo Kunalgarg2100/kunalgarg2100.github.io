@@ -1,0 +1,90 @@
+/* === Page Loader === */
+		#pageloader {
+			background:#f1f0f0;
+			height: 100%;
+			position: fixed;
+			width: 100%;
+			z-index: 999999;
+			color:#666;
+			font-size:16px;
+			font-weight:400;
+			text-align:center;
+			font-style:italic;
+		}
+		.loader-item {
+			left: 50%;
+			margin: -36px 0 0 -36px;
+			position: absolute;
+			text-align: center;
+			top: 50%;
+			width: auto;
+			width:72px;
+			height:72px;
+		}
+		.loader-item img{
+			margin-bottom:10px;
+		}
+		/* === End === */
+
+		/* === Header === */
+
+		header{
+			position: fixed;
+			width:100%;
+			padding:20px 0;
+			transition: all 0.28s ease-out 0s;
+			z-index: 1031;
+		}
+		header.colored, header.subpage {
+			background:#373737;
+			-webkit-transition: all 0.15s linear;
+			-moz-transition: all 0.15s linear;
+			-o-transition: all 0.15s linear;
+			transition: all 0.15s linear;
+		}
+
+		/* === End === */
+
+		/* === Navbar Menu === */
+		.navbar {
+			-webkit-transition: all 0.15s linear;
+			-moz-transition: all 0.15s linear;
+			-o-transition: all 0.15s linear;
+			transition: all 0.15s linear;
+		}
+
+		.navbar-default{
+			background:none;
+			margin:0;
+			border:none;
+		}
+
+		.logo {
+			padding: 8px 10px 4px 10px;
+			display: inline-block;
+			background: transparent;
+		}
+
+		.navbar-nav{
+			padding-top:10px;
+		}
+		.navbar-default .navbar-nav > li{
+			display:inline-block;
+			position:relative;
+			z-index:1001;
+		}
+		.navbar-default .navbar-nav > li > a, .navbar-default > li > a{
+			color:#FFF;
+			font-size:14px;
+			padding:10px 20px;
+			text-transform:uppercase;
+			display:inline-block;
+
+			border-radius:100px;
+			-webkit-border-radius:100px;
+			-moz-border-radius:100px;
+		}
+		.navbar-default .navbar-nav > .active > a{
+color : #FFF;
+}
+		/* === End === */
